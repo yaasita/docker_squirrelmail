@@ -8,7 +8,7 @@ RUN apt-get upgrade -y
 
 #package
 RUN apt-get install -y vim \
- aptitude squirrelmail-locales squirrelmail apache2 
+ aptitude squirrelmail-locales squirrelmail apache2 htop
 
 #ssh
 RUN apt-get install -y openssh-server
