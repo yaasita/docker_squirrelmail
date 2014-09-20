@@ -1,2 +1,3 @@
-docker_squirrelmail
-===================
+# squirrelmail
+
+Dockerイメージ作るときに使ったやつ
