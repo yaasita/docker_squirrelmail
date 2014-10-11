@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 MAINTAINER yaasita
 
 #apt
@@ -25,5 +25,5 @@ EXPOSE 22 80
 CMD ["/usr/bin/supervisord"]
 
 # squirrelmail
-RUN ln -s /etc/squirrelmail/apache.conf /etc/apache2/conf-enabled/squirrelmail.conf
+RUN ln -s /etc/squirrelmail/apache.conf /etc/apache2/conf.d/squirrelmail.conf
 
