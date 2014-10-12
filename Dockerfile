@@ -26,4 +26,5 @@ CMD ["/usr/bin/supervisord"]
 
 # squirrelmail
 RUN ln -s /etc/squirrelmail/apache.conf /etc/apache2/conf.d/squirrelmail.conf
+COPY config.php /etc/squirrelmail/config.php
 
